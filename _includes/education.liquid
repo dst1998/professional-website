@@ -1,0 +1,20 @@
+{% if site.data.education %}
+  <h2>Education</h2>
+  {% for item in site.data.education %}
+    <div class="experience-item mb-4">
+      <h3 class="mb-1">{{ item.institution }}</h3>
+      <p class="desc mb-2">
+        {{ item.studyType }} in {{ item.area }}, {{ item.location }}
+        (
+        {% assign start = item.start_date | append: '-01' | date: '%b %Y' %}
+        {% if item.end_date == 'present' %}
+          {{ start }} – present
+        {% else %}
+          {% assign end = item.end_date | append: '-01' | date: '%b %Y' %}
+          {{ start }} – {{ end }}
+        {% endif %}
+        )
+      </p>
+    </div>
+  {% endfor %}
+{% endif %}

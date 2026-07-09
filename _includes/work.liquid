@@ -1,0 +1,9 @@
+<div class="experience-item mb-4">
+  <h3 class="mb-1">{{ include.item.title }}</h3>
+  {% if include.item.description %}
+    <p class="desc mb-2">{{ include.item.description }}</p>
+  {% endif %}
+  {% if include.item.content != blank %}
+    <div>{{ include.item.content }}</div>
+  {% endif %}
+</div>

@@ -4,7 +4,10 @@ title: ECE539 CMOS VLSI Design Methodologies
 description: Graduate Teaching Assistant, Duke University (Aug–Dec 2022).
 importance: 3
 category: teach
-redirect: /teachings/ece539-cmos-vlsi-design-methodologies/
 ---
 
-Lectured, updated project tutorials, held lab sessions and office hours, graded assignments and exams, mentored 20+ students, and supervised 5 practical labs.
+- Lectured and updated project tutorials.
+- Held lab sessions and office hours.
+- Graded homework and exams.
+- Mentored 20+ students and supervised 5 practical labs.
+- Supported customized IC design hands-on work in Cadence Virtuoso.
