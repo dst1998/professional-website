@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Marvell Technology
-description: Summer intern, Systems Architecture Group (Summer 2026).
+description: Solutions Architecture Intern
+start_date: 2026-05
+end_date: 2026-08
 importance: 1
 category: work
 ---

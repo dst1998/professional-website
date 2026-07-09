@@ -1,37 +1,20 @@
 {% include date_badge_styles.liquid %}
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% assign presentation_items = site.work | where: 'category', 'presentations' %}
+  {% if presentation_items != blank %}
+    {% assign presentation_size = presentation_items | size %}
     <div
       class="publications"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+      {% if include.limit and page.announcements.scrollable and presentation_size > 3 %}
         style="max-height: 60vw; overflow-y: auto"
       {% endif %}
     >
-      <ol class="bibliography">
-        {% assign news = site.news | sort: 'date' | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
-        {% for item in news limit: news_limit %}
-          <li>
-            <div class="row">
-              <div class="col col-sm-2 abbr">
-                <abbr class="badge rounded w-100">{{ item.date | date: '%b %Y' }}</abbr>
-              </div>
-              <div class="col-sm-10">
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </div>
-            </div>
-          </li>
-        {% endfor %}
-      </ol>
+      {% if include.limit and page.announcements.limit %}
+        {% assign news_limit = page.announcements.limit %}
+      {% else %}
+        {% assign news_limit = presentation_size %}
+      {% endif %}
+      {% include presentations_and_posters.liquid limit=news_limit %}
     </div>
   {% else %}
     <p>No news so far...</p>

@@ -1,7 +1,9 @@
 ---
 layout: page
 title: SEU-FEI Nano-Pico Center, Southeast University
-description: Undergraduate research with Prof. Litao Sun (Apr–Jun 2020).
+description: Undergraduate research with Prof. Litao Sun
+start_date: 2020-04
+end_date: 2020-06
 importance: 4
 category: research
 ---

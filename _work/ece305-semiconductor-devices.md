@@ -1,7 +1,9 @@
 ---
 layout: page
 title: ECE305 Semiconductor Devices
-description: Graduate Teaching Assistant, Purdue University (Aug–Dec 2024).
+description: Graduate Teaching Assistant, Purdue University
+start_date: 2024-08
+end_date: 2024-12
 importance: 2
 category: teach
 ---

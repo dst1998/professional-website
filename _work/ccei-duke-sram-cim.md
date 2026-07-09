@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Center of Computational Evolutionary Intelligence, Duke University
-description: Research Assistant, advised by Prof. Yiran Chen and Prof. Helen (Hai) Li (Jan–Oct 2022).
+description: Research Assistant, advised by Prof. Yiran Chen and Prof. Helen (Hai) Li
+start_date: 2022-01
+end_date: 2022-10
 importance: 2
 category: research
 ---

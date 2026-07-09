@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Efficient, Secure and Intelligent Computing Lab, ASU
-description: Research Assistant, advised by Prof. Deliang Fan (Jun–Aug 2022).
+description: Research Assistant, advised by Prof. Deliang Fan
+start_date: 2022-06
+end_date: 2022-08
 importance: 3
 category: research
 ---

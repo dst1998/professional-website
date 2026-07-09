@@ -1,7 +1,9 @@
 ---
 layout: page
 title: NanoX Lab, Purdue University
-description: Research Assistant, advised by Prof. Haitong Li (Aug 2023–present).
+description: Research Assistant, advised by Prof. Haitong Li
+start_date: 2023-08
+end_date: present
 importance: 1
 category: research
 ---

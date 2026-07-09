@@ -1,7 +1,9 @@
 ---
 layout: page
 title: ECE550 Fundamentals of Computer Systems and Engineering
-description: Graduate Teaching Assistant, Duke University (Jun–Aug 2022).
+description: Graduate Teaching Assistant, Duke University
+start_date: 2022-06
+end_date: 2022-08
 importance: 4
 category: teach
 ---

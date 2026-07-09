@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Laboratory Administrator, Southeast University
-description: School of Electronic Engineering (Sept 2017–Jun 2018).
+description: School of Electronic Engineering
+start_date: 2017-09
+end_date: 2018-06
 importance: 5
 category: teach
 ---

@@ -1,7 +1,9 @@
 ---
 layout: page
 title: ECE20008 Electrical Engineering Fundamentals Laboratory
-description: Graduate Teaching Assistant, Purdue University (Jan–May 2026).
+description: Graduate Teaching Assistant, Purdue University
+start_date: 2026-01
+end_date: 2026-05
 importance: 1
 category: teach
 ---
