@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications in AI hardware, compute-in-memory, 3D integration, and memory-centric acceleration.
 nav: true
 nav_order: 2

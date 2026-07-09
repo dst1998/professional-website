@@ -2,7 +2,7 @@
   url: https://www.dac.com/
   color: "#005eb8"
 
-"TECS":
+"ACM TECS":
   url: https://dl.acm.org/journal/tecs
   color: "#4b7f52"
 
@@ -25,11 +25,3 @@
 "IEDM":
   url: https://ieee-iedm.org/
   color: "#8a3b12"
-
-"VLSI":
-  url: https://www.vlsisymposium.org/
-  color: "#555555"
-
-"Nat. Nanotechnol.":
-  url: https://www.nature.com/nnano/
-  color: "#1f6f43"
