@@ -1,4 +1,5 @@
 {% if site.data.education %}
+  {% include date_badge_styles.liquid %}
   <h2>Education</h2>
   <div class="publications">
     <ol class="bibliography">
@@ -14,12 +15,7 @@
         <li>
           <div class="row">
             <div class="col col-sm-2 abbr">
-              {% if item.color != blank %}
-                {% assign badge_style = item.color | prepend: 'style="background-color:' | append: '"' %}
-              {% else %}
-                {% assign badge_style = null %}
-              {% endif %}
-              <abbr class="badge rounded w-100" {% if badge_style %}{{ badge_style }}{% endif %}>
+              <abbr class="date-badge badge rounded w-100">
                 <div>{{ duration }}</div>
               </abbr>
             </div>

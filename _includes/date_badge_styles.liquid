@@ -1,0 +1,18 @@
+{% unless date_badge_styles_included %}
+  <style>
+    .date-badge {
+      background-color: var(--global-theme-color);
+      color: var(--global-card-bg-color) !important;
+      font-size: 1rem;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .news th.date-col {
+      font-weight: normal;
+      vertical-align: top;
+      width: 20%;
+    }
+  </style>
+  {% assign date_badge_styles_included = true %}
+{% endunless %}

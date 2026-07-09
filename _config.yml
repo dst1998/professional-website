@@ -226,7 +226,6 @@ exclude:
   - _books/
   - _posts/
   - _pages/books.md
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/

@@ -1,3 +1,4 @@
+{% include date_badge_styles.liquid %}
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
@@ -16,7 +17,9 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' }}</th>
+            <th scope="row" class="date-col">
+              <abbr class="date-badge badge rounded">{{ item.date | date: '%b %Y' }}</abbr>
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
