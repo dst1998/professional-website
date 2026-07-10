@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Selected research and design projects in AI hardware and computer architecture.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [research, design]
 ---
