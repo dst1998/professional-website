@@ -3,7 +3,7 @@ layout: page
 title: Marvell Technology
 description: Solutions Architecture Intern
 start_date: 2026-05
-end_date: Present
+end_date: present
 importance: 1
 category: work
 ---
